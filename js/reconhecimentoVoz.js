@@ -22,7 +22,7 @@ function exibeChute(chute) {
 }
 
 recognition.addEventListener('end', () => {
-    if(chute != numeroSecreto) { 
+    if(chute.toUpperCase() != "DESISTO") { 
         recognition.start()
     }
 
