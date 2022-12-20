@@ -20,3 +20,10 @@ function exibeChute(chute) {
         <span class="box">${chute}</span>
     `
 }
+
+recognition.addEventListener('end', () => {
+    if(chute != numeroSecreto) { 
+        recognition.start()
+    }
+
+})

@@ -33,6 +33,15 @@ h3 {
     margin-top: 20px;
 }
 
+.botao-jogar {
+    padding: 8px 15px;
+    border: 0;
+    background: var(--cor-primaria);
+    border-radius: 5px;
+    margin-top: 1.5em;
+    cursor: pointer;
+}
+
 .mensagem {
     font-size: 1.5em;
     margin-top: 40px;
